@@ -1,0 +1,154 @@
+/* Universal styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+/* navigation */
+strong {
+  color: #4a4a4a !important;
+}
+
+.logo {
+  color: #9f9f9f !important;
+}
+
+header {
+  box-shadow: 1px 1px 4px 0 rgba(64,224,208,0.1);
+  Position: relative;
+  width: 100%;
+  z-index:1;
+  height: 64px;
+  overflow: hidden;
+  color: #4a4a4a;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
+
+ul li {
+  float: right;
+}
+
+li a {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Source Sans Pro', sans-serif;
+  float:left;
+}
+
+.topnavright a {
+  float:left;
+}
+
+.topnavright{
+  float: right;
+}
+.normal a:hover {
+  color: #d8d8d8;
+  transition: color 0.2s ease 0.5s;
+}
+
+.logo{
+  float: left;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 32px;
+}
+
+.logoimage{
+  display: inline-block;
+  width: 32px;
+}
+
+.logoimg {
+   display:inline-block;
+   vertical-align: middle
+}
+
+/* mobile nav*/
+@media only screen and (min-width: 600px){
+  .responsive {display: none;}
+  span .textresp{
+    display: flex;
+  }
+}
+@media screen only and (max-width: 600px){
+   .responsive {
+     display: flex;
+     width:50px;}
+
+    .textresp{
+      display: none !important;
+    }
+}
+
+/* Learning */
+.learnimg img {
+  width: 100%;
+  margin: 32px 24px;
+  align-items: center;
+}
+
+.learnimg {
+  flex: 1;
+  order:1;
+}
+.learn {
+  color: #4a4a4a;
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+  background-color: #d8d8d8;
+  align-items:center;
+  font-size: 2rem;
+}
+
+.texttoimg {
+  text-align: left;
+  flex: 1;
+  align-items: center;
+  order:1;
+  overflow: hidden;
+  margin-left: 60px;
+}
+
+.texttoimg h3{
+  padding: 20px 0;
+}
+
+
+button {
+  background-color: #4a4a4a;
+  border: none;
+  color: white;
+  padding: 15px 60px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+button a {
+  text-decoration: none;
+  color: white;
+
+}
+/* Practice */
+
+
+/* Start learning */
+/* Thesis */
+/* Footer */
