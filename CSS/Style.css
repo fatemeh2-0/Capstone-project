@@ -147,8 +147,64 @@ button a {
 
 }
 /* Practice */
+.practice {
+  display: flex;
+  align-items: center;
+  color:#4a4a4a;
+  flex-direction: row;
+}
 
+#textimg {
+flex: 3;
+
+}
+
+#textimg img {
+margin: 32px 24px;
+}
+
+.heading {
+  font-size: 1.5rem;
+  margin: 0 0 24px 24px;
+}
+
+.parap{
+  margin: 0 0 24px 24px;
+}
+
+.parag {
+  margin: 0 0 24px 24px;
+}
+
+.catalogue {
+display: flex;
+flex-direction: column;
+}
+
+.cat1 .catalogue  {
+flex-direction: row;
+}
+
+.cat2 .catalogue {
+flex-direction: row;
+}
+
+.catalogue a {
+  text-decoration: none;
+  color: #5e9ae2;
+}
 
 /* Start learning */
+.learning {
+  color: #4a4a4a;
+}
+
+.Learnings {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
 /* Thesis */
 /* Footer */
